@@ -2,6 +2,9 @@
 
 # This section defines stuff for DDLC and your mod!
 # Use this as a starting point if you would like to override with your own.
+image water = "mod_assets/waterbg.png"
+
+
 
 define persistent.demo = False
 define persistent.steam = ("steamapps" in config.basedir.lower())

@@ -37,7 +37,7 @@ label start:
     # Controls whether we allow skipping dialogue.
     $ allow_skipping = True
     $ config.allow_skipping = True
-
+    jump fun
     # Start of the script
     # 'persistent.playthrough' controls the playthrough number the player is on
     if persistent.playthrough == 0:

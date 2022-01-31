@@ -33,7 +33,8 @@ init python:
             im.matrix.desaturate() * im.matrix.colorize(blackCol, whiteCol))
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
-
+image logo = "mod_assets/DDLCModTemplateLogo.png"
+image emrlogo = "mod_assets/emrlogo.png"
 # Main Menu Images
 image menu_logo:
     "/mod_assets/DDLCModTemplateLogo.png"
